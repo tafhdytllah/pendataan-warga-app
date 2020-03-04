@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background_dialog"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title_keluarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubah Data Keluarga"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/new_no_rumah_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No Rumah Baru"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/new_no_kk_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No KK Baru"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/new_nama_kk_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama KK Baru"
+                android:textSize="18sp"
+                android:ems="10"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"/>
+
+
+            <EditText
+                android:id="@+id/new_nik_nama_kk_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nik Baru"
+                android:textSize="18sp"
+                android:ems="10"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/new_nama_istri_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Istri Baru"
+                android:textSize="18sp"
+                android:ems="10"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/new_nik_istri_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nik Baru"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/new_nama_anak_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama AnakBaru"
+                android:textSize="18sp"
+                android:ems="10"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/new_nik_anak_keluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nik Baru"
+                android:ems="10"
+                android:textSize="18sp"
+                android:textColor="#a9a9a9"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

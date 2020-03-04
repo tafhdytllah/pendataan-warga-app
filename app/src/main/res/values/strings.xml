@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WARTE</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+    <string name="tab_aktif">Aktif</string>
+    <string name="tab_keluar">Non-Aktif</string>
+    <string name="minimum_password">minimum 6 karakter!</string>
+    <string name="auth_failed">Authentication gagal, periksa alamat email dan password atau mendaftar</string>
+    <string name="logingmail_failed">Gmail belum terdaftar, atau Password salah!</string>
+    <string name="loginGmail_berhasil">Berhasil Masuk</string>
+
+    <string name="twitterUsername">\@taufikhdytllah</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time">02/03/2019 05:59PM</string>
+    <string name="date">dd/MM/yyyy</string>
+
+    <string name="spinner_title">Pilih</string>
+
+</resources>

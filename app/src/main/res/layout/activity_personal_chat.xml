@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDED"
+    tools:context=".chats.PersonalChatActivity">
+
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:id="@+id/iv_image_PC"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <!--recyclerview-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_personal_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/LL_personal_chat"/>
+
+    <!--send message edit text and button in layout-->
+    <LinearLayout
+        android:id="@+id/LL_personal_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--Edittext input message-->
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start typing"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:inputType="textCapSentences|textMultiLine"
+            android:background="@null"/>
+        <!--button send message-->
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_send_white"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

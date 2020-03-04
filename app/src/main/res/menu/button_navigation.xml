@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item
+        android:id="@+id/nav_hallo"
+        android:icon="@drawable/ic_hallo_black_24dp"
+        android:title="Hallo" /> -->
+
+    <item
+        android:id="@+id/nav_home"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Beranda" />
+
+    <item
+        android:id="@+id/nav_chats"
+        android:icon="@drawable/ic_chats_black"
+        android:title="Chats"/>
+
+
+    <item
+        android:id="@+id/nav_hallo"
+        android:icon="@drawable/ic_berita_icon"
+        android:title="Berita"/>
+
+    <item
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/ic_akun_black_24dp"
+        android:title="Akun" />
+
+
+
+</menu>
