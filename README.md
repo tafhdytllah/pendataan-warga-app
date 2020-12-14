@@ -1,3 +1,3 @@
-# android-TA
+# Aplikasi Pendataan warga
 
-bentar baru belajar nih
+Aplikasi yang di buat dalam project Tugas Akhir Semester 7
